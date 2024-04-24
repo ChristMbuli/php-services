@@ -10,7 +10,7 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
             </ul>
-            <a href="http://localhost:3000/" class="btn btn-success">
+            <a href="https://react-service-frontend.onrender.com/" class="btn btn-success">
                 Ajouter un article <i class="fa-solid fa-plus"></i>
             </a>
         </div>
