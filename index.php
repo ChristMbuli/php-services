@@ -22,7 +22,7 @@ require ('./backend/allProducts.php')
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <?php foreach ($products as $product): ?>
             <div class="col">
-                <a href="http://127.0.0.1:8000/products/<?= $product['id'] ?>/edit" target="_blank" class="nav-link">
+                <a href="https://micro-service-8wezg131m-christ-mbulis-projects.vercel.app/products/<?= $product['id'] ?>/edit" target="_blank" class="nav-link">
                     <div class="card">
                         <img src="<?= htmlspecialchars($product['images']) ?>" class="card-img-top" alt="...">
                         <div class="card-body">
